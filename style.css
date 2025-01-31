@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: black;
+    font-family: 'Courier New', monospace;
+    color: #C5E17A;
+    display: flex;
+    flex-direction: column;  /* Make the layout flow vertically */
+    justify-content: space-between;  /* Space between content and footer */
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #1A4D1A;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.shipment {
+    text-align: center;
+}
+
+button {
+    background-color: #333;
+    color: #C5E17A;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+h1, h3 {
+    color: #C5E17A;
+}
+
+.someone {
+    background-color: #1A4D1A;
+    color: #C5E17A;
+    font-family: 'Courier New', monospace;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    width: fit-content;
+}
+
+h3 {
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: #C5E17A;
+    text-align: center;
+    padding: 15px 30px;
+    margin-top: auto;  /* Push the footer to the bottom */
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100%;  /* Full width */
+}
